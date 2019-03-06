@@ -1,0 +1,16 @@
+{
+  "name": "measure-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "testcafe remote test.js --qr-code",
+    "test": "testcafe chrome test.js"
+  },
+  "keywords": [],
+  "author": "Sergii Shvager <sshvager@ebay.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.1.0"
+  }
+}
